@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class GridText {
 
-    ArrayList<String> gridText;
+    private ArrayList<String> gridText;
 
     public GridText(String source, String delimiter) {
         gridText = new ArrayList<String>();
@@ -24,6 +24,7 @@ public class GridText {
     }
 
     public Character at(int row, int col) {
+
         if (row < 0 || row >= gridText.size()) {
             return null;
         }
@@ -36,6 +37,7 @@ public class GridText {
     }
 
     public int length(int row) {
+
         if (row < 0 || row >= gridText.size()) {
             return 0;
         }
