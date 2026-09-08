@@ -1,0 +1,245 @@
+{
+  "tests": [
+    {
+      "name": "GridText shell complete",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "GridText Test 1",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "Test 1: First constructor passes!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "GridText Test 2",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "Test 2: First .at() tests pass!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "GridText Test 3",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "Test 3: Second constructor tests pass!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "GridText Test 4",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "Test 4: Third constructor tests pass!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "GridText Test 5",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "Test 5: Fourth grid spaces test pass!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "GridText Test 6",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "Test 6 passes!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "GridText Test 7",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "Test 7 passes!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "GridText Test 8",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "Test 8 passes!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "GridText Test 9",
+      "setup": "javac TestGrid.java",
+      "run": "java TestGrid",
+      "input": "",
+      "output": "Test 9 passes!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "AlgebraicFraction shell complete",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+	    
+    },
+    {
+      "name": "TestFraction f1 correct format",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f1              = a / c",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f2 correct format",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f2              = ( b miles ) / hour",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f3 correct format",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f3              = ( x y hour ) / b",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f4 (correctly display empty fraction as 1)",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f4              = 1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f1 * f2 correct format",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f1 * f2         = ( a b miles ) / ( c hour )",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f3 * f2 correct format",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f3 * f2         = ( x y miles ) / 1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f1 * f4 (correctly multiply by 1)",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f1 * f4         = a / c",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f1 correct num and denom",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f1              = +[(]? ?a ?[)]? */ *[(]? *c *[)]?",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f2 correct num and denom",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f2              = +[(]? ?b miles ?[)]? */ *[(]? *hour *[)]?",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f3 correct num and denom",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f3              = +[(]? ?x y hour ?[)]? */ *[(]? *b *[)]?",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f1 * f2 correct num and denom",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f1 [*] f2         = +[(]? ?a b miles ?[)]? */ *[(]? *c hour *[)]?",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFraction f3 * f2 correct num (x y miles) and denom (1)",
+      "setup": "javac TestFraction.java",
+      "run": "java TestFraction",
+      "input": "",
+      "output": "f3 [*] f2         = +[(]? ?x y miles ?[)]? */ *[(]? *1 *[)]?",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
