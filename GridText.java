@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class GridText {
 
-    private ArrayList<String> gridText;
+    public ArrayList<String> gridText;
 
     public GridText(String source, String delimiter) {
         gridText = new ArrayList<String>();
